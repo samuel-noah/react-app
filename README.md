@@ -1,3 +1,3 @@
-# Getting Started with Create React App
+# A Simple React App 
 
 This is A React App 
