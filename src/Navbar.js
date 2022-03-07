@@ -1,13 +1,14 @@
-import { Link } from "react-router-dom/cjs/react-router-dom.min";
+// import { Link } from "react-router-dom"
+import { Link } from "react-scroll"
 
 const Navbar = () => {
     return ( 
         <nav className="navbar">
-            <h2>Samuel William Noah</h2>
+            <h2>Samuel William Noah </h2>
             <div className="links">
-                <a href="/home">Home</a>
-                <a href="/about">About</a>
-                <a href="/projects">Projects</a>
+                <Link to="/">Home</Link>
+                <Link to="experience" smooth ={true} duration = {1000} >Experience</Link>
+                <Link to="/projects">Projects</Link>
             </div>
         </nav>
      );
