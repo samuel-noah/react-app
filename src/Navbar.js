@@ -1,4 +1,4 @@
-// import { Link } from "react-router-dom"
+
 import { Link } from "react-scroll"
 
 const Navbar = () => {
@@ -8,7 +8,7 @@ const Navbar = () => {
             <div className="links">
                 <Link to="/">Home</Link>
                 <Link to="experience" smooth ={true} duration = {1000} >Experience</Link>
-                <Link to="/projects">Projects</Link>
+                <Link to="projects" smooth = {true} duration = {1000}>Projects</Link>
             </div>
         </nav>
      );

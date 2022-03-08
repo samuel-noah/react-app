@@ -127,7 +127,7 @@
   flex-direction: column;
   margin-left: 50%;
   padding: 20px;
-  margin-top: 200px;
+  margin-top: 180px;
 
 }
 
@@ -151,6 +151,40 @@
 }
 
 .experience-content{
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.projects{
+  display: flex;
+  flex-direction: column;
+  margin-right: 50%;
+  padding: 20px;
+  margin-top: 200px;
+
+}
+
+.projects h1 {
+  font-family: "Roboto";
+  margin-left: 100px;
+  color: brown;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 30px;
+
+}
+.projects p{
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  margin-left: 100px;
+
+}
+
+.projects-content{
   display: flex;
   flex-direction: column;
   margin-left: 100px;

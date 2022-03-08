@@ -9,10 +9,11 @@ const Experience = () => {
             <div className="experience-content">
                 <ul>
                     <li> React Js </li>
-                    <li> React Js </li>
-                    <li> React Js </li>
-                    <li> React Js </li>
-                    <li> React Js </li>
+                    <li> Express JS Framework  </li>
+                    <li> Mongo DB </li>
+                    <li> PHP Scripting Language </li>
+                    <li> MySql DBMS </li>
+                    <li> Python Scripting Language </li>
                 </ul>
             </div>
         </section>
