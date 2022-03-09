@@ -125,7 +125,7 @@
 .experience{
   display: flex;
   flex-direction: column;
-  margin-left: 50%;
+  margin-left: 30%;
   padding: 20px;
   margin-top: 180px;
 
@@ -153,8 +153,18 @@
 .experience-content{
   display: flex;
   flex-direction: column;
-  margin-left: 100px;
+  margin-right: 80px;
   font-family: 'Courier New', Courier, monospace;
+}
+
+.experience-content li {
+  font-family: "Roboto";
+  font-size: 20px;
+  color: black;
+  font-weight: 300;
+  margin-bottom: 20px;
+  margin-left: 100px;
+
 }
 .projects{
   display: flex;
@@ -189,4 +199,30 @@
   flex-direction: column;
   margin-left: 100px;
   font-family: 'Courier New', Courier, monospace;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 100px;
+}
+.footer p {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.footer a {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  text-decoration: none;
+  color: #333;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 5px;
+  margin-left: 5px;
+  
 }
