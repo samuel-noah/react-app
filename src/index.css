@@ -128,7 +128,11 @@
   margin-left: 30%;
   padding: 20px;
   margin-top: 180px;
-
+  animation: fadeIn linear 3s;
+  -webkit-animation: fadeIn linear 3s;
+  -moz-animation: fadeIn linear 3s;
+  -o-animation: fadeIn linear 3s;
+  -ms-animation: fadeIn linear 3s;
 }
 
 .experience h1 {
@@ -169,12 +173,34 @@
 .projects{
   display: flex;
   flex-direction: column;
-  margin-right: 50%;
+  margin-right: 30%;
   padding: 20px;
   margin-top: 200px;
+  -webkit-animation: fadeIn linear 3s;
+  -moz-animation: fadeIn linear 3s;
+  -o-animation: fadeIn linear 3s;
+  -ms-animation: fadeIn linear 3s;
 
 }
-
+.projects button{
+  font-family: "Roboto";
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 50%;
+  background-color: #fff;
+  border: 1px solid #333;
+  color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
 .projects h1 {
   font-family: "Roboto";
   margin-left: 100px;
@@ -207,11 +233,11 @@
   margin-left: 100px;
   padding: 20px;
   margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: 100px;
+  margin-bottom: 10px;
+
 }
 .footer p {
-  text-align: center;
+  text-align: end;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .footer a {
@@ -225,4 +251,30 @@
   padding: 5px;
   margin-left: 5px;
   
+}
+
+.projectlist {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 100px;
+  cursor: pointer;
+    -webkit-animation: fadeIn linear 3s;
+    -moz-animation: fadeIn linear 3s;
+    -o-animation: fadeIn linear 3s;
+    -ms-animation: fadeIn linear 3s;
+  margin-right: 50%;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.projectlist h3 {
+  font-family: "Roboto";
+  color: brown;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+
 }
