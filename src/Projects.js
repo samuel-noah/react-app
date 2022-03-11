@@ -1,7 +1,11 @@
 import { useState } from "react";
 import Projectlist from "./Projectlist";
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+import { Link } from "react-scroll"
 
 const Projects = () => {
+    AOS.init()
     const [projects, setProjects] = useState('');
 
     const handleClick = () => {
@@ -12,17 +16,14 @@ const Projects = () => {
     }
 
     return ( 
-        <section className="projects">
+        <section data-aos = "fade-in"  className="projects">
             <h1>Projects &#128079;</h1>
-            <p> I love Idea Orieanted task that and problem solving activity.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Curabitur euismod, nisi vel consectetur euismod,
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Curabitur euismod, nisi vel consectetur euismod,
+            <p> Up to the moment I have been coding for schooll task and side projects 
+                I have worked with some technologies. Here are some of my projects.
             </p>
                 <div className="projects-content">
                 </div>
-                <button onClick={handleClick}>See Projects</button>
+            <Link to ="projectlist" smooth ={true} duration = {1000} ><button onClick={handleClick}>See Projects</button></Link> 
                 <p>{projects}</p>
         </section>
      );

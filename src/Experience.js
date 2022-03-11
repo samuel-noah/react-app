@@ -1,6 +1,10 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css'
+
 const Experience = () => {
+    AOS.init()  
     return ( 
-        <section className="experience">
+        <section data-aos = "fade-in" className="experience">
             <h1>Experience &#128035;</h1>
             <p> I love Idea Orieanted task that and problem solving activity.
                 I am an efficient and goal oriented person. I am a team player
@@ -14,7 +18,7 @@ const Experience = () => {
                         Manage all Gueci & Manik Lawyers social media content  </p>
 
                     <li> Research Staf at CBSA UI  </li>
-                     <p> Conducted a research on students Interest. Desain a daily task remainder using
+                     <p> Conducted a research on students Interest. Design a daily task remainder using
                          Google Calendar
                      </p>
                 </ul>
