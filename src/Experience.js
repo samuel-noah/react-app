@@ -18,8 +18,8 @@ const Experience = () => {
                         Manage all Gueci & Manik Lawyers social media content  </p>
 
                     <li> Research Staf at CBSA UI  </li>
-                     <p> Conducted a research on students Interest. Design a daily task remainder using
-                         Google Calendar
+                     <p> Conducted a research on students Interest, and arrange a 
+                         mentoring session for stundents.
                      </p>
                 </ul>
             </div>
